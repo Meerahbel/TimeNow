@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.start-btn {
+  @apply bg-[#1d1b67] p-3 rounded-sm;
+}

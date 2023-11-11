@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeNow</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-white w-[100%]">
+    <div class="w-[100%] flex flex-col gap-10 md:gap-20">
+      <!--FOR THE FIRST SECTION-->
+      <section class="flex flex-col md:flex-row w-[100%]">
+        <!--LEFT SIDE-->
+        <div
+          class="flex flex-col gap-20 px-3 py-4 lg:px-20 lg:py-5 md:w-[50%] md:px-10 md:py-10"
+        >
+          <nav class="flex w-[100%] md:w-[70%] md:gap-5 lg:w-[50%]">
+            <div class="flex justify-between w-[100%]">
+              <img src="Assets/Logo.svg" alt="logo" class="w-[24px] h-[22px]" />
+              <div class="cursor-pointer md:hidden" id="burger">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <ul
+              class="hidden fixed md:flex gap-5 md:relative bg-white w-full md:w-fit top-[90px] md:top-0 shadow-md md:shadow-none p-5 md:p-0"
+              id="menu"
+            >
+              <li class="text-[#596978]"><a href="index.html">Features</a></li>
+              <li class="text-[#596978]"><a href="pricing.html">Pricing</a></li>
+            </ul>
+          </nav>
+
+          <div class="flex flex-col gap-8">
+            <h1 class="font-semibold text-4xl text-[#1d1b67] md:w-[80%]">
+              Post when your audience is most active.
+            </h1>
+            <p class="text-[#1d1b67] md:w-[70%]">
+              With TimeNow, automatically schedule your posts on Twitter,
+              Linkedin, and Instagram to post when your followers are most
+              active.
+            </p>
+            <div
+              class="flex items-center gap-10 md:flex-col md:items-start md:gap-3 lg:flex-row lg:gap-8 lg:items-center"
+            >
+              <button
+                class="cursor-pointer flex items-center justify-center start-btn w-[150px] lg:w-[200px]"
+              >
+                <span class="text-white">Start Scheduling</span>
+              </button>
+              <div class="cursor-pointer md:ml-6">
+                <span class="text-[#596978]">View Demo</span>
+              </div>
+            </div>
+            <div class="flex gap-3 pb-10">
+              <div>
+                <img src="Assets/Shield.svg" alt="shield" />
+              </div>
+              <p class="text-[#596978]">
+                TimeNow does not sell your data.
+                <span
+                  ><a href="#" class="underline text-[#596978] font-semibold"
+                    >Learn more</a
+                  ></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--FOR RIGHT SIDE-->
+        <div class="p-10 relative bg-[#43c9da] md:w-[50%] md:pt-20">
+          <div class="flex w-[100%]">
+            <img
+              src="Assets/Mockup.png"
+              alt="image mockup"
+              class="w-full h-auto"
+            />
+          </div>
+
+          <div class="hidden sm:block start-btn absolute top-3 right-[20%]">
+            <span class="text-white">Start Scheduling</span>
+          </div>
+        </div>
+      </section>
+
+      <!--FOR THE SECOND SECTION-->
+      <section class="flex flex-col p-5 w-[100%] lg:flex-row lg:p-0">
+        <!--FOR THE LEFT SIDE-->
+        <div
+          class="flex flex-col md:flex-row lg:flex-col gap-5 lg:w-[50%] lg:ml-16"
+        >
+          <p class="text-xl font-bold text-[#1d1b67] md:w-[50%] lg:w-[60%]">
+            TimeNow is used by the most influential people.
+          </p>
+          <div class="flex gap-3 flex-wrap">
+            <img
+              src="Assets/UA1.png"
+              alt="person 1"
+              class="w-10 h-10 md:w-8 md:h-8"
+            />
+            <img
+              src="Assets/UA2.png"
+              alt="person 2"
+              class="w-10 h-10 md:w-8 md:h-8"
+            />
+            <img
+              src="Assets/UA3.png"
+              alt="person 3"
+              class="w-10 h-10 md:w-8 md:h-8"
+            />
+            <img
+              src="Assets/UA4.png"
+              alt="person 4"
+              class="w-10 h-10 md:w-8 md:h-8"
+            />
+            <img
+              src="Assets/UA5.png"
+              alt="person 5"
+              class="w-10 h-10 md:w-8 md:h-8"
+            />
+            <img
+              src="Assets/UA6.png"
+              alt="person 6"
+              class="w-10 h-10 md:w-8 md:h-8"
+            />
+            <img
+              src="Assets/UA7.png"
+              alt="person 7"
+              class="w-10 h-10 md:w-8 md:h-8"
+            />
+            <img
+              src="Assets/UA8.png"
+              alt="person 8"
+              class="w-10 h-10 md:w-8 md:h-8"
+            />
+          </div>
+        </div>
+        <!--FOR RIGHT SIDE-->
+        <div class="flex flex-col my-5 gap-3 lg:w-[50%] lg:mx-10 lg:my-0">
+          <p class="w-[100%] font-medium text-[#596978] lg:w-[90%]">
+            The most influential people on facebook, Twitter, and Instagram are
+            using TimeNow to schedule posts when their followers are most
+            active.
+          </p>
+          <p class="w-[100%] font-medium text-[#596978] md:w-[90%]">
+            They generally receive 25% more engagement than people who do not.
+          </p>
+        </div>
+      </section>
+
+      <!--FOR THE THIRD SECTION-->
+      <section
+        class="bg-[#ccfafb] flex flex-col gap-10 p-5 w-[100%] lg:flex-row lg:p-20 lg:gap-o"
+      >
+        <!--FOR THE LEFT SIDE-->
+        <div class="flex flex-col gap-5 lg:w-[50%]">
+          <p class="text-[#3b60bf]">Unified Dashboard</p>
+          <p class="text-4xl w-[80%] font-semibold">
+            Customizable dashboard for all platforms.
+          </p>
+          <p class="text-[#596978] lg:w-[60%]">
+            Use Twitter and Instagram but not Linkedin? You can customize your
+            dashboard to your liking. You can even schedule the same post to
+            individual platforms instead of all platforms.
+          </p>
+          <button
+            class="cursor-pointer start-btn flex items-center justify-center w-[150px] lg:w-[200px]"
+          >
+            <span class="text-white">Start Scheduling</span>
+          </button>
+        </div>
+        <!--FOR THE RIGHT SIDE-->
+        <div class="flex flex-col gap-5 lg:w-[50%] lg:ml-10">
+          <p class="text-[#3b60bf]">Enhanced Analytics</p>
+          <p class="text-4xl w-[80%] font-semibold">
+            Real-time data that tells you everything.
+          </p>
+          <p class="text-[#596978] lg:w-[60%]">
+            Use Twitter and Instagram but not Linkedin? You can customize your
+            dashboard to your liking. You can even schedule the same post to
+            individual platforms instead of all platforms.
+          </p>
+          <div class="flex items-center gap-2 mt-2">
+            <p>
+              <a href="#">View Live Demo</a>
+            </p>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="mt-1 w-5 h-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!--FOR THE FOURTH SECTION-->
+      <section
+        class="flex flex-col w-[100%] p-5 gap-3 lg:flex-row lg:p-0 lg:gap-0"
+      >
+        <!--FOR THE LEFT SIDE-->
+        <div class="flex flex-col gap-5 lg:w-[50%] lg:gap-3 lg:pl-20 lg:pb-10">
+          <div>
+            <img src="Assets/Logo.svg" alt="logo" />
+          </div>
+          <div
+            class="grid grid-cols-2 gap-5 text-[#596978] md:grid-cols-3 md:gap-0"
+          >
+            <div class="flex flex-col gap-3">
+              <p class="font-bold text-[#1d1b67]">Product</p>
+              <p>Homepage</p>
+              <p>Pricing</p>
+              <p>Features</p>
+            </div>
+            <div class="flex flex-col gap-3">
+              <p class="font-bold text-[#1d1b67]">Help</p>
+              <p>Live Chat</p>
+              <p>Send Email</p>
+              <p>FAQ</p>
+            </div>
+            <div class="flex flex-col gap-3">
+              <p class="font-bold text-[#1d1b67]">Company</p>
+              <p>About</p>
+              <p>Customers</p>
+              <p>Blog</p>
+            </div>
+          </div>
+        </div>
+        <!--FOR THE RIGHT SIDE-->
+        <div class="flex flex-col gap-2 lg:w-[50%] lg:pt-12 lg:pl-10">
+          <p class="font-bold text-[#1d1b67]">Try TweetNow</p>
+          <div
+            class="flex justify-between border border-[#596978] rounded-sm py-3 pl-3 pr-1 lg:w-[60%]"
+          >
+            <p class="text-[#596978]">Email Address</p>
+            <div>
+              <span class="start-btn text-white">Start Scheduling</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
