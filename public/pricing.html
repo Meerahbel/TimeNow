@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="flex flex-col gap-5">
+      <!--FOR HEADER-->
+      <header class="flex justify-between items-center px-10 py-5 w-[100%]">
+        <!--FOR NAV MENUS-->
+        <nav class="flex w-[100%] md:w-[25%] lg:w-[20%]">
+          <div class="flex justify-between w-[100%]">
+            <img src="Assets/Logo.svg" alt="logo" class="w-[24px] h-[22px]" />
+            <div class="cursor-pointer md:hidden" id="burger">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="hidden fixed md:relative md:flex gap-3 bg-white w-full md:w-fit top-[90px] md:top-0 shadow-md md:shadow-none p-5 md:p-0"
+            id="menu"
+          >
+            <p class="text-[#596978]"><a href="index.html">Features</a></p>
+            <p class="text-[#1d1b67] font-bold">
+              <a href="pricing.html">Pricing</a>
+            </p>
+          </div>
+        </nav>
+
+        <!--NAV BUTTON-->
+        <button
+          class="hidden md:flex justify-center items-center bg-[#1d1b67] p-3 start-btn"
+        >
+          <span class="text-white">Start Scheduling</span>
+        </button>
+      </header>
+
+      <!--FOR FIRST SECTION-->
+      <section class="flex flex-col items-center gap-10 w-[100%] p-5">
+        <!--FOR THE HERO TEXTS-->
+        <div class="flex flex-col items-center gap-2">
+          <h2 class="font-bold text-5xl text-center">
+            Flexible Plans for Everyone.
+          </h2>
+          <p class="text-[#596978] text-center md:w-[50%]">
+            Our plans are made for everyone. Whether you are just starting out
+            on social media, or have been on there for a long time, we have a
+            plan that's write for you.
+          </p>
+          <div class="flex items-center gap-2">
+            <p class="text-[#596978] font-bold">Billed Monthly</p>
+            <div>
+              <img
+                src="Assets/toggle icon.png"
+                alt="toggle icon"
+                class="w-10 h-10"
+              />
+            </div>
+            <p class="text-[#596978]">Billed Yearly</p>
+          </div>
+        </div>
+
+        <!--FOR THE CARDS-->
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <!--FOR FIRST CARD-->
+          <div
+            class="flex flex-col gap-10 p-5 border border-[#596978] rounded-md"
+          >
+            <div class="flex flex-col gap-10">
+              <div class="flex flex-col gap-3 border-b border-[#596978] p-5">
+                <p class="text-[#596978]">
+                  <span class="font-bold text-black text-lg">$4</span>/mo>
+                </p>
+                <p>Perfect plan if you are just starting out</p>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div class="flex gap-3">
+                  <img src="Assets/Checkmark.svg" alt="Checkmark" />
+                  <p>Linkedin Integration</p>
+                </div>
+                <div class="flex gap-3">
+                  <img src="Assets/Checkmark.svg" alt="Checkmark" />
+                  <p>Twitter Integration</p>
+                </div>
+                <div class="flex gap-3">
+                  <img src="Assets/Checkmark.svg" alt="Checkmark" />
+                  <p>Real-time Analytics</p>
+                </div>
+              </div>
+            </div>
+            <button class="bg-[#1d1b67] start-btn md:mt-9 lg:mt-0">
+              <span class="text-white">Subscribe Now</span>
+            </button>
+          </div>
+
+          <!--FOR SECOND CARD-->
+          <div
+            class="flex flex-col gap-10 p-5 border border-[#596978] rounded-md"
+          >
+            <div class="flex flex-col gap-10">
+              <div class="flex flex-col gap-3 border-b border-[#596978] p-5">
+                <p class="text-[#596978]">
+                  <span class="font-bold text-black text-lg">$12</span>/mo>
+                </p>
+                <p>Perfect plan if you are a heavy user of social media</p>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div class="flex gap-3">
+                  <img src="Assets/Checkmark.svg" alt="Checkmark" />
+                  <p>Linkedin Integration</p>
+                </div>
+                <div class="flex gap-3">
+                  <img src="Assets/Checkmark.svg" alt="Checkmark" />
+                  <p>Twitter Integration</p>
+                </div>
+                <div class="flex gap-3">
+                  <img src="Assets/Checkmark.svg" alt="Checkmark" />
+                  <p>Instagram Integration</p>
+                </div>
+                <div class="flex gap-3">
+                  <img src="Assets/Checkmark.svg" alt="Checkmark" />
+                  <p>Real-time Analytics</p>
+                </div>
+              </div>
+            </div>
+            <button class="bg-[#1d1b67] start-btn">
+              <span class="text-white">Subscribe Now</span>
+            </button>
+          </div>
+
+          <!--FOR THIRD CARD-->
+          <div
+            class="flex flex-col gap-10 p-5 border border-[#596978] rounded-md md:col-span-2 lg:col-span-1"
+          >
+            <div class="flex flex-col gap-10">
+              <div class="flex flex-col gap-3 border-b border-[#596978] p-5">
+                <p class="text-[#596978]">
+                  <span class="font-bold text-black text-lg">$7</span>/mo>
+                </p>
+                <p>Perfect plan if you are just starting out</p>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div class="flex gap-3">
+                  <img src="Assets/Checkmark.svg" alt="Checkmark" />
+                  <p>Linkedin Integration</p>
+                </div>
+                <div class="flex gap-3">
+                  <img src="Assets/Checkmark.svg" alt="Checkmark" />
+                  <p>Twitter Integration</p>
+                </div>
+              </div>
+            </div>
+            <button class="bg-[#1d1b67] start-btn">
+              <span class="text-white">Subscribe Now</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--LAST SECTION-->
+      <section
+        class="flex flex-col items-start lg:items-center w-[100%] p-5 gap-3 lg:flex-row lg:p-0 lg:gap-0"
+      >
+        <!--FOR THE LEFT SIDE-->
+        <div class="flex flex-col w-[100%] md:w-[50%] p-3">
+          <div>
+            <img src="Assets/Logo.svg" alt="logo" />
+          </div>
+          <div
+            class="grid grid-cols-2 gap-5 text-[#596978] md:grid-cols-3 md:gap-10 lg:gap-0"
+          >
+            <div class="flex flex-col gap-3">
+              <p class="font-bold text-[#1d1b67]">Product</p>
+              <p>Homepage</p>
+              <p>Pricing</p>
+              <p>Features</p>
+            </div>
+            <div class="flex flex-col gap-3">
+              <p class="font-bold text-[#1d1b67]">Help</p>
+              <p>Live Chat</p>
+              <p>Send Email</p>
+              <p>FAQ</p>
+            </div>
+            <div class="flex flex-col gap-3">
+              <p class="font-bold text-[#1d1b67]">Company</p>
+              <p>About</p>
+              <p>Customers</p>
+              <p>Blog</p>
+            </div>
+          </div>
+        </div>
+        <!--FOR THE RIGHT SIDE-->
+        <div
+          class="flex flex-col p-3 gap-2 w-[100%] md:w-[50%] lg:p-0 lg:pl-20"
+        >
+          <p class="font-bold text-[#1d1b67]">Try TweetNow</p>
+          <div
+            class="flex justify-between border border-[#596978] rounded-sm py-3 pl-3 pr-1 lg:w-[60%]"
+          >
+            <p class="text-[#596978]">Email Address</p>
+            <div>
+              <span class="start-btn text-white">Start Scheduling</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="pricing.js"></script>
+  </body>
+</html>
